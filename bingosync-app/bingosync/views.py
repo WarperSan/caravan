@@ -61,9 +61,8 @@ def room_view(request, encoded_room_uuid):
     if request.method == "POST":
         join_form = JoinRoomForm(request.POST)
         if join_form.is_valid():
-            if join_form.cleaned_data["player_name"] is not "Bingyflea":
-                player = join_form.create_player()
-                _save_session_player(request.session, player)
+            player = join_form.create_player()
+            _save_session_player(request.session, player)
             return redirect("room_view", encoded_room_uuid=encoded_room_uuid)
         else:
             room = Room.get_for_encoded_uuid_or_404(encoded_room_uuid)
@@ -286,9 +285,8 @@ def join_room_api(request):
     })
     join_form = JoinRoomForm(form_data)
     if join_form.is_valid():
-        if join_form.cleaned_data["player_name"] is not "Bingyflea":
-            player = join_form.create_player()
-            _save_session_player(request.session, player)
+        player = join_form.create_player()
+        _save_session_player(request.session, player)
         return redirect("get_socket_key", encoded_room_uuid=room.encoded_uuid)
     else:
         return HttpResponse(join_form.errors.as_json(), content_type="application/json", status=400)
