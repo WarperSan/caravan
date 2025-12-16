@@ -104,9 +104,8 @@ class RoomForm(forms.Form):
             game = Game.from_board(board_json, room=room, game_type_value=game_type.value,
                     lockout_mode_value=lockout_mode.value, seed=seed)
 
-            if nickname is not "Bingyflea": #prevent bingyflea from joining rooms
-                creator = Player(room=room, name=nickname, is_spectator=is_spectator)
-                creator.save()
+            creator = Player(room=room, name=nickname, is_spectator=is_spectator)
+            creator.save()
 
             room.update_active()
         return room
