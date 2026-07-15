@@ -1,7 +1,7 @@
 var Board = (function(){
     "use strict";
 
-    var ORDERED_COLORS = ["beastling", "hornet", "plasmium", "scrounge", "architect", "gilly", "huntress", "sherma", "magnetite", "vespa"];
+    var ORDERED_COLORS = ["pink", "red", "orange", "brown", "yellow", "green", "teal", "blue", "navy", "purple"];
 
     var ROW_NAMES = ["row1", "row2", "row3", "row4", "row5", "row6",
                      "col1", "col2", "col3", "col4", "col5", "col6", "tlbr", "bltr"];

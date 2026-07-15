@@ -1,4 +1,4 @@
-COLORS = ["blank", "hornet", "sherma", "gilly", "vespa", "plasmium", "magnetite", "huntress", "beastling", "scrounge", "architect"];
+COLORS = ["blank", "red", "blue", "green", "purple", "orange", "navy", "teal", "pink", "brown", "yellow"];
 
 function getSquareColorClass(color) {
     return color + "square";
