@@ -1,4 +1,4 @@
-COLORS = ["blank", "red", "blue", "green", "purple", "orange", "navy", "teal", "pink", "brown", "yellow"];
+COLORS = ["blank", "red", "yellow", "green", "orange", "navy", "blue", "teal", "pink", "brown", "purple"];
 
 function getSquareColorClass(color) {
     return color + "-square";

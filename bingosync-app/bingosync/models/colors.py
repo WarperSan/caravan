@@ -7,16 +7,16 @@ class Color(Enum):
     blank = 1
     # 5 original colors
     red = 2
-    blue = 3
+    yellow = 3
     green = 4
-    orange = 5
-    purple = 6
+    navy = 5
+    orange = 6
     # 5 expanded colors
-    navy = 7
+    blue = 7
     teal = 8
     pink = 9
     brown = 10
-    yellow = 11
+    purple = 11
 
     def __str__(self):
         return self.name.capitalize()
