@@ -212,8 +212,8 @@
     -webkit-box-shadow: inset 0px 0px 50px rgba(0, 0, 0, 0.6);
 }
 
-.blanksquare:hover,
-.blanksquare.hover {
+.blank-square:hover,
+.blank-square.hover {
     background: #0a245a;
 }
 
@@ -254,43 +254,43 @@
     border-collapse: separate;
 }
 
-.gillysquare {
+.green-square {
     background-image: linear-gradient(#04b636 5%, #237e3d 35%, #237e3d 80%, #2E6F40);
 }
 
-.hornetsquare {
+.red-square {
     background-image: linear-gradient(#f35572 10%, #c32a45 35%, #b6102e);
 }
 
-.plasmiumsquare {
+.blue-square {
     background-image: linear-gradient(#3e76df 5%,#0d48b5 35%, #0d48b5 80%, #022b75);
 }
 
-.shermasquare {
+.yellow-square {
     background-image: linear-gradient(#ddc700 60%, #9b8b00);
 }
 
-.vespasquare {
+.orange-square {
     background-image: linear-gradient(#f59856 4%, #cd560b 25%, #994612 80%, #612906);
 }
 
-.beastlingsquare {
+.pink-square {
     background-image: linear-gradient(#fa7d90 80%, #e65b6f);
 }
 
-.scroungesquare {
+.brown-square {
     background-image: linear-gradient(#f5c06c 20%, #a56f18);
 }
 
-.huntresssquare {
+.teal-square {
     background-image: linear-gradient(#80c786 75%, #37793c);
 }
 
-.magnetitesquare {
+.navy-square {
     background-image: linear-gradient(#94c5fa, #75b4d8 60%, #36829e);
 }
 
-.architectsquare {
+.purple-square {
     background-image: linear-gradient(#7726c4 5%, #481572 30%, #340c55);
 }
 
@@ -382,47 +382,47 @@
 .playername {
 }
 
-.blankplayer {
+.blank-player {
     color: #c8c8c8;
 }
 
-.gillyplayer {
+.green-player {
     color: #0da337;
 }
 
-.hornetplayer {
+.red-player {
     color: #c32a45;
 }
 
-.plasmiumplayer {
+.blue-player {
     color: #1f5bca;
 }
 
-.shermaplayer {
+.yellow-player {
     color: #f8e009;
 }
 
-.vespaplayer {
+.orange-player {
     color: #cd560b;
 }
 
-.magnetiteplayer {
+.navy-player {
     color: #5daafd;
 }
 
-.huntressplayer {
+.teal-player {
     color: #80c786;
 }
 
-.beastlingplayer {
+.pink-player {
     color: #fa7d90;
 }
 
-.scroungeplayer {
+.brown-player {
     color: #fdc060;
 }
 
-.architectplayer {
+.purple-player {
     color: #685094;
 }
 

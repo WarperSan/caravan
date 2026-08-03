@@ -1,11 +1,11 @@
-COLORS = ["blank", "hornet", "sherma", "gilly", "vespa", "plasmium", "magnetite", "huntress", "beastling", "scrounge", "architect"];
+COLORS = ["blank", "red", "yellow", "green", "orange", "navy", "blue", "teal", "pink", "brown", "purple"];
 
 function getSquareColorClass(color) {
-    return color + "square";
+    return color + "-square";
 }
 
 function getPlayerColorClass(color) {
-    return color + "player";
+    return color + "-player";
 }
 
 // global variables that are overwritten in bingosync.html main

@@ -6,17 +6,17 @@ from itertools import combinations, chain
 class Color(Enum):
     blank = 1
     # 5 original colors
-    hornet = 2
-    sherma = 3
-    gilly = 4
-    plasmium = 5
-    vespa = 6
+    red = 2
+    yellow = 3
+    green = 4
+    navy = 5
+    orange = 6
     # 5 expanded colors
-    magnetite = 7
-    huntress = 8
-    beastling = 9
-    scrounge = 10
-    architect = 11
+    blue = 7
+    teal = 8
+    pink = 9
+    brown = 10
+    purple = 11
 
     def __str__(self):
         return self.name.capitalize()
@@ -44,7 +44,7 @@ class Color(Enum):
 
     @staticmethod
     def player_default():
-        return Color.hornet
+        return Color.red
 
     @property
     def composite_value(self):
